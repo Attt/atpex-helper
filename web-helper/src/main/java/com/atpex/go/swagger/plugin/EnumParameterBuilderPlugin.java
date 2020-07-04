@@ -33,7 +33,7 @@ import static com.atpex.go.common.Constants.*;
  */
 public class EnumParameterBuilderPlugin extends Plugin implements ParameterBuilderPlugin, OperationBuilderPlugin {
 
-    private static final Joiner joiner = Joiner.on(",");
+    private static final Joiner joiner = Joiner.on(DELIMITER1);
 
     @Override
     public void apply(ParameterContext context) {
